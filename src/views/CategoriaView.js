@@ -34,7 +34,7 @@ export default function CategoriaView() {
         <CategoriasMenu />
       </div>
       <div className="col-12 col-md-8">
-        <h4 className="mb-3">Lugares</h4>
+        <h4 className="mb-3">Lugares de la Categoria  {categoria.cat_nom}</h4>
         <div className="row">
           {categoria.lugares.map(({lug_nom, lug_dir, lug_desc, lug_img, lug_id, categoriaId}, i) => (
             <div className="col-md-12 col-lg-4" key={i}>
